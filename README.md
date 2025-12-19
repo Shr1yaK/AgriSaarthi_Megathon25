@@ -1,9 +1,9 @@
 
-AgriSaarthi - Multilingual Agricultural AI Assistant
+# AgriSaarthi - Multilingual Agricultural AI Assistant
 
 AgriSaarthi is an intelligent, voice-enabled multilingual chatbot designed to assist Indian farmers by providing expert agricultural advice in their native language. The application bridges the language gap in agriculture by offering real-time support through speech recognition, AI-powered responses, translation, and text-to-speech capabilities.
 
-Features
+## Features
 
 Voice Interaction
 
@@ -77,7 +77,7 @@ APIs Used
 
 
 
-Getting Started
+## Getting Started
 
 Prerequisites
 
@@ -87,7 +87,7 @@ Prerequisites
 - Google Gemini API Key
 
 
-Installation
+### Installation
 
 1. Clone the Repository
 
@@ -133,7 +133,7 @@ npm install
 
 ***
 
-Running the Application
+## Running the Application
 
 ### **Start Backend (Flask)**
 
@@ -165,7 +165,7 @@ http://localhost:3000
 
 ***
 
-Usage
+## Usage
 
 Chat Mode
 
@@ -190,7 +190,7 @@ Translation Mode
 
 ***
 
-🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 | :-- | :-- |
@@ -205,7 +205,7 @@ Translation Mode
 
 
 
-Project Structure
+## Project Structure
 
 ```
 agrisaarthi/
@@ -233,7 +233,7 @@ agrisaarthi/
 └── README.md
 ```
 
-Key Features Breakdown
+## Key Features Breakdown
 
 Complete Voice Pipeline
 
@@ -252,7 +252,8 @@ Supported Languages
 
 English, Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi, Odia, Urdu, Assamese, and more.
 
- Future Enhancements
+
+## Future Enhancements
 
 - **OCR Integration**: Extract text from uploaded documents
 - **Crop Disease Detection**: AI-powered image analysis
@@ -262,7 +263,7 @@ English, Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, P
 - **Progressive Web App**: Installable mobile experience
 
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -274,26 +275,6 @@ Contributions are welcome! Please follow these steps:
 
 
 
-Contact
+### Contact
 
-For questions or support, reach out at: [Udhav.malpani@research.iiit.ac.in]
-
-
-This README covers installation, features, usage, and architecture comprehensively! Copy this into your `README.md` file and customize the repository URL, email, and author information as needed.
-
-[^1]: https://www.neuroquantology.com/media/article_pdfs/AGRICULTURAL_SUPPORT_CHATBOT_FOR_FARMERS.pdf
-
-[^2]: https://www.ijraset.com/research-paper/an-ai-based-multilingual-chatbot-for-agricultural-assistance
-
-[^3]: https://github.com/adil200/Farmer-Support-ChatBot
-
-[^4]: https://renewator.com/automated-technical-documentation-tool-for-multilingual-chatbot-training-in-agriculture/
-
-[^5]: https://www.irjweb.com/AI – Powered Farming Guide.pdf
-
-[^6]: https://www.ijcrt.org/papers/IJCRT24A4640.pdf
-
-[^7]: https://www.nielit.gov.in/aurangabad/sites/default/files/Aurangabad/AgroBuddy_Empowering_Indian_Farmers_Through_Precision_Farming_Chatbot.pdf
-
-[^8]: https://biogecko.co.nz/admin/uploads/A19.pdf
-
+For questions or support, reach out at: [shriya.kansal@students.iiit.ac.in]
