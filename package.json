@@ -1,0 +1,49 @@
+{
+  "name": "agrisaarthi-chatbot",
+  "version": "1.0.0",
+  "description": "Multilingual agricultural chatbot powered by Bhashini APIs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bash start-simple.sh",
+    "dev:weather": "cd backend && source venv/bin/activate && python -m uvicorn weather_service:app --host 0.0.0.0 --port 8004 --reload",
+    "dev:frontend": "next dev",
+    "dev:backend": "cd backend && python3 app.py",
+    "dev:bhashini": "cd backend && PORT=8000 python3 app.py",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend": "cd backend && python app.py",
+    "install-all": "npm install && cd backend && pip install -r requirements.txt",
+    "setup": "npm run install-all"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.6.0",
+    "socket.io-client": "^4.7.0",
+    "lucide-react": "^0.294.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "agriculture",
+    "chatbot",
+    "multilingual",
+    "bhashini",
+    "ai",
+    "farming"
+  ],
+  "author": "AgriSaarthi Team",
+  "license": "MIT"
+}
